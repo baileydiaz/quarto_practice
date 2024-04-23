@@ -1,8 +1,8 @@
 ---
 title: "My Document"
-execute:
-  echo: false
-jupyter: python3
+output:
+  quarto::html_document:
+    self_contained: true
 ---
 
 ```{python}
